@@ -9,9 +9,11 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Metrics 1
-        uses: lowlighter/metrics@latest
+        uses: red40maxxer/metrics@latest
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -44,7 +46,7 @@ jobs:
           plugin_notable_indepth: yes
 
       - name: Metrics 2
-        uses: lowlighter/metrics@latest
+        uses: red40maxxer/metrics@latest
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
