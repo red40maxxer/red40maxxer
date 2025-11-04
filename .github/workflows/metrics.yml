@@ -13,7 +13,7 @@ jobs:
       contents: write
     steps:
       - name: Metrics 1
-        uses: red40maxxer/metrics@master
+        uses: lowlight/metrics@v3.34
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -46,7 +46,7 @@ jobs:
           plugin_notable_indepth: yes
 
       - name: Metrics 2
-        uses: red40maxxer/metrics@master
+        uses: lowlight/metrics@v3.34
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
