@@ -40,7 +40,9 @@ jobs:
           plugin_notable_filter: stars:>30
           plugin_notable_from: all
           plugin_notable_indepth: yes
-
+          plugin_notable_repositories: yes
+          plugin_notable_self: yes
+          
       - name: Metrics 2
         uses: lowlighter/metrics@v3.34
         with:
