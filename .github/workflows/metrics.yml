@@ -38,7 +38,7 @@ jobs:
 
           plugin_notable: yes
           plugin_notable_filter: stars:>30
-          plugin_notable_from: organization
+          plugin_notable_from: all
           plugin_notable_indepth: yes
 
       - name: Metrics 2
