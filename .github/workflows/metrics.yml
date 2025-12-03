@@ -57,5 +57,8 @@ jobs:
           config_twemoji: yes  
           use_prebuilt_image: yes
 
+          plugin_topics: yes
+          plugin_topics_sort: starred
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
